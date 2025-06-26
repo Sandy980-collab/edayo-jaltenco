@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style type="text/css">
+.TALLER {
+	font-size: 24pt;
+	font-style: oblique;
+	line-height: normal;
+	text-align: center;
+	font-weight: bold;
+}
+.TALLER p {
+	font-size: 36pt;
+}
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body bgcolor="#D5BF98" class="TALLER" onload="MM_preloadImages('../imagenes/ESTI..png','../imagenes/SIST..png','../imagenes/ING..png','../imagenes/REQUISITOS2.png','../imagenes/CONFEC..png','../imagenes/CONFECCION.png')">
+<p><img src="../imagenes/icati.png" alt="ICATI" width="293" height="114" /></p>
+<p>TALLERES</p>
+<p onmouseover="MM_swapImage('CONFECCION','','../imagenes/CONFEC..png',1)"><a href="CONFECCION.html" target="mainFrame"><img src="../imagenes/CONFECCION.png" alt="CONFECCION" name="CONFECCION" width="268" height="84" id="CONFECCION" onmouseover="MM_swapImage('CONFECCION','','../imagenes/CONFEC..png',1);MM_swapImage('CONFECCION','','../imagenes/CONFECCION.png',1)" onmouseout="MM_swapImgRestore()" /></a></p>
+<p><a href="ESTILISMO.html" target="mainFrame"><img src="../imagenes/ESTILISMO.png" alt="ESTILISMO" name="ESTILISMO" width="267" height="80" id="ESTILISMO" onmouseover="MM_swapImage('ESTILISMO','','../imagenes/ESTI..png',1)" onmouseout="MM_swapImgRestore()" /></a></p>
+<p><a href="SISTEMAS.html" target="mainFrame"><img src="../imagenes/SISTEMAS.png" alt="SISTEMAS" name="SISTEMAS" width="272" height="89" id="SISTEMAS" onmouseover="MM_swapImage('SISTEMAS','','../imagenes/SIST..png',1)" onmouseout="MM_swapImgRestore()" /></a></p>
+<p><a href="INGLES.html" target="mainFrame"><img src="../imagenes/INGLES.png" alt="INGLES" name="INGLES" width="268" height="92" id="INGLES" onmouseover="MM_swapImage('INGLES','','../imagenes/ING..png',1)" onmouseout="MM_swapImgRestore()" /></a></p>
+<p><a href="requisitos.html" target="mainFrame"><img src="../imagenes/REQUISITOS.png" alt="REUISIOS" name="REQUISITOS" width="274" height="87" id="REQUISITOS" onmouseover="MM_swapImage('REQUISITOS','','../imagenes/REQUISITOS2.png',1)" onmouseout="MM_swapImgRestore()" /></a></p>
+<p>&nbsp;</p>
+</body>
+</html>
